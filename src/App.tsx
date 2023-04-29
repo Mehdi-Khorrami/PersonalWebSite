@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
+import Headerr from './component/header';
 
 function App() {
+
   return (
-    <h1>Ali</h1>
+    <>
+    <Headerr></Headerr>
+    </>
   );
+
 }
 
 export default App;
